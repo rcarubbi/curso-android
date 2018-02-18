@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Credenciais</string>
+    <string name="titulo">Credenciais</string>
+    <string name="name_label">Nome</string>
+    <string name="name_hint">Digite seu nome</string>
+    <string name="password_label">Senha</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="login_button">Login</string>
+    <string name="error_message_required_name">O Nome é obrigatório</string>
+    <string name="error_message_name_max_length">O nome deve ter no máximo 10 caracteres</string>
+    <string name="error_message_min_length">O nome deve ter no mínimo 3 caracteres</string>
+    <string name="error_message_required_password">A senha é obrigatória</string>
+    <string name="login_success_message">Acesso concedido</string>
+    <string name="error_message_access_denied">Usuário ou senha inválidos</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Credencial</string>
+    <string name="title">Credencial</string>
+    <string name="name_label">Name</string>
+    <string name="name_hint">Type your name here</string>
+    <string name="password_label">Password</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="login_button">Login</string>
+    <string name="error_message_required_name">Name is required</string>
+    <string name="error_message_name_max_length">Name must has at most 10 caracters</string>
+    <string name="error_message_min_length">Name must has 3 caracters at least</string>
+    <string name="error_message_required_password">Password is required</string>
+    <string name="login_success_message">Login successful</string>
+    <string name="error_message_access_denied">Invalid user or password</string>
+</resources>

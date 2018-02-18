@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Exercicios</string>
+    <string name="loginTitle">Login</string>
+    <string name="nameLabel">Nome:</string>
+    <string name="passwordLabel">Senha:</string>
+    <string name="nextActivityButton">Próxima tela</string>
+    <string name="previousActivityButton">Tela Anterior</string>
+    <string name="dadosCadastraisTitle">Dados Cadastrais</string>
+    <string name="phoneLabel">Telefone</string>
+    <string name="emailLabel">Email</string>
+    <string name="primaryPhoneLabel">Casa</string>
+    <string name="secondaryPhoneLabel">Trabalho</string>
+    <string name="primaryEmailLabel">Pessoal</string>
+    <string name="secondaryEmailLabel">Trabalho</string>
+</resources>
