@@ -79,14 +79,14 @@ public class MainActivity extends AppCompatActivity {
         btn_mostrar = findViewById(R.id.btn_mostrar);
 
         if (savedInstanceState == null) {
-            valor = "SemValor";
+            valor = "Sem Valor";
         } else {
             valor = savedInstanceState.getString("valor");
         }
     }
 
     private void initActions() {
-        btn_mostrar.setOnClickListener(new View.OnClickListener() {
+        btn_mudar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 valor = et_valor.getText().toString();
