@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:id="@+id/celula_ll">
+
+    <ImageView
+        android:id="@+id/celula_iv_icone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/avenger01" />
+
+    <TextView
+        android:id="@+id/celula_tv_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:text="Nome"
+        android:textSize="25sp" />
+</LinearLayout>
