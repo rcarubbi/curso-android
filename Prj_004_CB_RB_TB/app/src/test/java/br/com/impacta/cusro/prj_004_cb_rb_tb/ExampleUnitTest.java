@@ -1,4 +1,4 @@
-package br.com.impacta.cusro.prj_004_cb_rb_tb;
+package br.com.impacta.curso.prj_004_cb_rb_tb;
 
 import org.junit.Test;
 

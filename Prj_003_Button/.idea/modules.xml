@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Prj_003_Button.iml" filepath="$PROJECT_DIR$/Prj_003_Button.iml" />
+      <module fileurl="file://C:\Users\rcaru\projects\curso-android\Prj_003_Button\Prj_003_Button.iml" filepath="C:\Users\rcaru\projects\curso-android\Prj_003_Button\Prj_003_Button.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\rcaru\projects\curso-android\Prj_003_Button\app\app.iml" filepath="C:\Users\rcaru\projects\curso-android\Prj_003_Button\app\app.iml" />
     </modules>
   </component>
 </project>

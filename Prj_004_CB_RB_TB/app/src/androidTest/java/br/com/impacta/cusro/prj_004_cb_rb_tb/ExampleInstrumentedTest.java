@@ -1,4 +1,4 @@
-package br.com.impacta.cusro.prj_004_cb_rb_tb;
+package br.com.impacta.curso.prj_004_cb_rb_tb;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("br.com.impacta.cusro.prj_004_cb_rb_tb", appContext.getPackageName());
+        assertEquals("br.com.impacta.curso.prj_004_cb_rb_tb", appContext.getPackageName());
     }
 }

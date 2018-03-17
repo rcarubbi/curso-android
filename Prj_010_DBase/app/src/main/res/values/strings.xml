@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Prj_010_DBase</string>
-    <string name="action_settings">Settings</string>
+    <string name="novoContato">Novo Contato</string>
 </resources>

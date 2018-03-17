@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.impacta.cusro.prj_004_cb_rb_tb">
+    package="br.com.impacta.curso.prj_004_cb_rb_tb">
 
     <application
         android:allowBackup="true"
