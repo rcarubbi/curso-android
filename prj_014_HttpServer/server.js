@@ -23,20 +23,20 @@ app.use(function (req, res, next) {
     next();
 });
 
-router.get('/contatos', (req, res) => {
-    res.status(200).send({
-        contatos: [
-            {
-                nome: "raphael carubbi neto",
-                idade: 36
-            },
-            {
-                nome: "yendis gomes",
-                idade: 26
-            },
-        ]
-    })
+router.post('/contatos', (req, res) => {
+    
+    let contatos_env = JSON.parse(req.body.json);
+    let contatos_rec = {};
+    contatos_rec.contatos = contatos_env.contatos;
+   
+    for (let i =0; i<contatos_rec.contatos.length; i++)
+    {
+        contatos_rec.contatos[i].nome = contatos_env.contatos[i].nome + contatos_env.contatos[i].idcontato; 
+    } 
+
+    res.status(200).send(contatos_rec)
 });
 app.use("/", router);
+ 
 
-http.createServer(app).listen(3000);
+http.createServer(app).listen(process.env.PORT || 3000);

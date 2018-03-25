@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity" />
+
+    <fragment
+        android:id="@+id/telainicial_f1"
+        android:name="br.com.impacta.curso.prj_016_fragmento.F01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/f01" />
+
+    <fragment
+        android:id="@+id/telainicial_f2"
+        android:name="br.com.impacta.curso.prj_016_fragmento.F02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/f02" />
+
+</LinearLayout>
