@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Prj_019_Drawer</string>
+
+
+    <string name="drawer_aberto">Drawer Aberto</string>
+    <string name="drawer_fechado">Drawer Fechado</string>
+</resources>
