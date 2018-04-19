@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <Button
+        android:id="@+id/btn_gravar_ce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Gravar C.E." />
+
+    <Button
+        android:id="@+id/btn_ler_ce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ler C.E." />
+
+    <Button
+        android:id="@+id/btn_gravar_sd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Gravar SD" />
+
+    <Button
+        android:id="@+id/btn_ler_sd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ler SD" />
+
+    <Button
+        android:id="@+id/btn_gravar_sb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Gravar SB" />
+
+    <Button
+        android:id="@+id/btn_ler_sb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ler SB" />
+
+
+</LinearLayout>
